@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.balloon {
+    margin-top: -8%;
+    width: 100%;
+    position: fixed;
+    background-position: center;
+    mix-blend-mode: overlay;
+}
+
+.balloon img {
+    width: 100%;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 70px;
+    color: #EB5B00;
+    margin-top: 3%;
+    text-shadow: rgb(0 235 244 / 90%) 0px 5px 17px;
+}
+
+h2 {
+    color: #ebf3c3;
+    margin-top: 8.5%;
+    margin-left: -46%;
+    font-size: 60px;
+    text-shadow: rgb(244 0 207) 0px 5px 17px;
+}
+
+span {
+    color: #f6fe2b;
+    text-shadow: rgb(0 244 3) 0px 5px 17px;
+}
+
+.para {
+    display: flex;
+    margin: 2% 21% 0% 31%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.image {
+    margin-top: -100%;
+    margin-left: -14%;
+    position: fixed;
+    size: 26%;
+}
+
+.image img{
+    width: 165%;
+}
+
+.sound {
+    display: flex;
+    justify-content: end;
+    margin-top: -41%;
+}
+
+audio {
+    margin-top: -27.5%;
+    margin-right: 0.4%;
+    position: fixed;
+    border-radius: 30px;
+    box-shadow: rgb(242 61 7 / 100%) 0px 5px 15px;
+}
+
+.para1 {
+    border: 2px solid goldenrod;
+    border-radius: 80px 0px;
+    padding: 26px;
+    text-align: center;
+    text-shadow: rgb(0 244 210) 0px 5px 6px;
+    box-shadow: rgba(242, 234, 7, 100%) 0px 5px 17px;
+}
+
+.para2 {
+    border-style: dotted;
+    margin-top: 25px;
+    padding: 10px;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    border-style: hidden;
+    text-shadow: rgb(244 0 108) 0px 5px 6px;
+    box-shadow: inset rgb(242 7 209) 0px 2px 17px;
+    border-left-color: pink;
+    border-right-color: pink;
+    margin-bottom: 15px;
+}
+
+.para3 {
+    border-radius: 10px 100px / 120px;
+    border: 2px solid cadetblue;
+    padding: 40px;
+    margin-bottom: 20px;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    text-shadow: rgb(9 243 210) 0px 3px 7px;
+    box-shadow: rgb(7 199 242) 0px 2px 17px;
+}
+
+.confetti {
+    margin-top: -111%;
+    mix-blend-mode: lighten;
+    position: fixed;
+    width: 100%;
+}
+
+.confetti img{
+    width: 100%;
+}
